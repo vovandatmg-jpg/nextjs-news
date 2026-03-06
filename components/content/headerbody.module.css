@@ -1,0 +1,375 @@
+/* ===== ROW 1 ===== */
+.row1 {
+  display: flex;
+  gap: 18px;
+  align-items: stretch;
+  background: #fff;
+  padding: 20px;
+  border-radius: 14px;
+  z-index: 10;
+  position: relative;
+}
+
+/* Lead card */
+.left {
+  flex: 2.5;
+  min-width: 0;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.08);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Sidebar */
+.sidebar {
+  flex: 0.8;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  height: 100%;
+  z-index: 8;
+}
+
+.video {
+  position: relative;
+  width: 100%;
+  height: 525px;
+  background: #0b1220;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.cover {
+  border-radius: 12px;
+  object-fit: cover;
+  z-index: 8;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.videoPlay {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 73px;
+  height: 73px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.6);
+  color: #2563eb;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 12;
+}
+
+.videoPlayIcon {
+  margin: 18px 0px 10px 6px;
+}
+
+.leadBody {
+  padding: 26px 18px 26px;
+  z-index: 8;
+  background: #fff;
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+  color: #64748b;
+}
+
+.tag {
+  font-weight: 800;
+  color: #2563eb;
+  letter-spacing: 0.2px;
+}
+
+.tagbig::after {
+  content: "";
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  margin-left: 10px;
+  background-color: #64748b;
+  border-radius: 999px;
+  margin-bottom: 2px;
+}
+
+.time {
+  color: #64748b;
+}
+
+.leadTitle {
+  margin-top: 10px;
+  font-size: 24px;
+  line-height: 1.25;
+  color: #0f172a;
+}
+
+/* Sidebar */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 100%;
+  z-index: 8;
+}
+
+.sideCard {
+  background: #fff;
+  overflow: hidden;
+  flex: 1;
+}
+
+.sideThumb {
+  position: relative;
+  height: 120px;
+}
+
+.sideThumb Image {
+  border-radius: 12px;
+}
+
+.sideBody {
+  padding-top: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 360px;
+  max-height: 200px;
+}
+
+.metaSmall {
+  display: flex;
+  gap: 12px;
+  font-size: 11px;
+  color: #64748b;
+}
+
+.tagSmall {
+  font-weight: 900;
+  color: #2563eb;
+}
+
+.timeSmall {
+  color: #64748b;
+}
+
+.sideTitle {
+  font-size: 16px;
+  line-height: 1.4;
+  color: #0f172a;
+
+  display: -webkit-box;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.sideTitleLink {
+  font-weight: 500;
+  text-decoration: none;
+  color: #000;
+}
+
+.sideTitleLink:hover {
+  color: #2563eb;
+}
+
+/* ===== ROW 2: CAROUSEL ===== */
+.row2 {
+  margin-top: 12px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.carousel {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+}
+
+.carCard {
+  background: #fff;
+  overflow: hidden;
+}
+
+.carThumb {
+  position: relative;
+  height: 200px;
+  width: 356px;
+}
+
+.carTitle {
+  padding: 10px 12px 12px;
+  font-size: 13px;
+  line-height: 1.35;
+  color: #0f172a;
+}
+
+/* arrows */
+.arrowLeft {
+  width: 38px;
+  height: 38px;
+  border-radius: 999px;
+  border: 1px solid #e5e7eb;
+  background: #fff;
+  cursor: pointer;
+  font-size: 22px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  left: -8px;
+  z-index: 12;
+  bottom: 138px;
+  opacity: 0.9;
+}
+
+.arrowRight {
+  width: 38px;
+  height: 38px;
+  border-radius: 999px;
+  border: 1px solid #e5e7eb;
+  background: #fff;
+  cursor: pointer;
+  font-size: 22px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  right: 0px;
+  z-index: 12;
+  bottom: 138px;
+  opacity: 0.9;
+}
+
+.arrowLeft:hover,
+.arrowRight:hover {
+  background: #f8fafc;
+}
+
+@media (max-width: 1024px) {
+  .row1 {
+    flex-direction: column;
+  }
+
+  .video {
+    height: 420px;
+  }
+
+  .sidebar {
+    flex-direction: row;
+    gap: 12px;
+  }
+
+  .sideCard {
+    flex: 1;
+  }
+
+  .sideBody {
+    max-width: none;
+  }
+
+  .carousel {
+    gap: 12px;
+    justify-content: flex-start;
+    overflow-x: auto;
+    padding-bottom: 6px;
+  }
+
+  .carCard {
+    flex: 0 0 calc(50% - 6px);
+  }
+
+  .carThumb {
+    width: 100%;
+  }
+
+  .arrowLeft,
+  .arrowRight {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .row1 {
+    padding: 14px;
+    gap: 14px;
+  }
+
+  .video {
+    height: 270px;
+  }
+
+  .leadBody {
+    padding: 18px 14px 20px;
+  }
+
+  .leadTitle {
+    font-size: 20px;
+  }
+
+  .sidebar {
+    flex-direction: column;
+  }
+
+  .sideThumb {
+    height: 170px;
+  }
+
+  .row2 {
+    margin-top: 16px;
+  }
+
+  .carousel {
+    display: grid;
+    grid-template-columns: 1fr;
+    overflow: visible;
+  }
+
+  .carCard {
+    flex: 1 1 auto;
+  }
+
+  .carThumb {
+    height: 210px;
+  }
+}
+
+@media (max-width: 480px) {
+  .leadTitle {
+    font-size: 18px;
+  }
+
+  .sideTitle {
+    font-size: 15px;
+  }
+
+  .videoPlay {
+    width: 58px;
+    height: 58px;
+  }
+
+  .videoPlayIcon {
+    margin: 12px 0 8px 4px;
+  }
+
+  .carThumb {
+    height: 180px;
+  }
+}

@@ -1,0 +1,300 @@
+.wrapper {
+  width: 100%;
+}
+
+.box {
+  width: 100%;
+  background: #f8fafc;
+  border: 1px solid #e5e7eb;
+  /* border-radius: 14px; */
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.18);
+  overflow: hidden;
+}
+
+.newsContainer {
+  width: 100%;
+  padding: 18px;
+  display: flex;
+  gap: 12px;
+}
+
+.containerLeft {
+  flex: 2.2;
+  min-width: 0;
+}
+
+.containerCenter {
+  flex: 1;
+  min-width: 0;
+}
+
+.containerRight {
+  flex: 3.8;
+  min-width: 0;
+}
+
+/* LEFT */
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  padding: 12px;
+  max-height: 200px;
+  overflow-y: auto;
+  position: relative;
+  scrollbar-width: thin;
+  scrollbar-color: #cbd5e1 transparent;
+}
+
+.newsItem {
+  display: flex;
+  gap: 12px;
+  font-size: 14px;
+  line-height: 1.4;
+  cursor: pointer;
+}
+
+.newsItem p {
+  margin: 0;
+}
+
+.newsTitle {
+  font-size: 12px;
+}
+
+.time {
+  min-width: 42px;
+  font-weight: 600;
+  color: #1d4ed8;
+}
+
+/* CENTER */
+.center {
+  background: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  padding: 12px;
+}
+
+.priceRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 4px;
+  border-bottom: 1px solid #e5e7eb;
+  font-size: 12px;
+}
+.priceRow:last-child {
+  border-bottom: none;
+}
+
+.priceLabel {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* RIGHT */
+.rightSection {
+  background: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.indexRow {
+  display: flex;
+  gap: 10px;
+  font-size: 12px;
+  padding: 10px 4px;
+  border-bottom: 1px solid #e5e7eb;
+  align-items: center;
+}
+
+.indexName {
+  flex: 2.7;
+}
+
+.indexValue,
+.indexPercent,
+.indexPrice {
+  flex: 0.9;
+}
+
+.indexRow:last-child {
+  border-bottom: none;
+}
+
+.indexRowActive {
+  background-color: #dbeafe;
+  border-radius: 6px;
+  padding: 10px 8px;
+  color: #2563eb;
+  font-weight: 600;
+}
+
+/* chart */
+.chartBox {
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  width: 100%;
+  height: 198px;
+}
+
+.sizeName {
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+/* colors */
+.colorItem {
+  color: #16a34a;
+}
+
+/* ===== TICKER ===== */
+.tickerRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 20px 12px;
+  background: #fff;
+}
+
+.tickerList {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  border: 1px solid #cbd5e1;
+  overflow: hidden;
+  background: #fff;
+  padding: 6px;
+  gap: 21px;
+  height: 42px;
+}
+
+.tickerItem {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 11px;
+  white-space: nowrap;
+  padding: 8px 10px;
+  border-right: 1px solid #cbd5e1;
+}
+
+.tickerItem:last-child {
+  border-right: none;
+}
+
+.tickerName {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.followBtn {
+  padding: 6px 12px;
+  border-radius: 4px;
+  border: 1px solid #dbeafe;
+  background: #e0f2fe;
+  color: #2563eb;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.followBtn:hover {
+  background: #bae6fd;
+}
+
+@media (max-width: 1024px) {
+  .newsContainer {
+    flex-wrap: wrap;
+  }
+
+  .containerLeft,
+  .containerCenter,
+  .containerRight {
+    flex: 1 1 100%;
+  }
+
+  .rightSection {
+    flex-direction: column;
+  }
+
+  .chartBox {
+    height: 280px;
+  }
+}
+
+@media (max-width: 768px) {
+  .newsContainer {
+    padding: 12px;
+  }
+
+  .left {
+    padding: 0;
+  }
+
+  .priceLabel {
+    font-size: 13px;
+  }
+
+  .indexRow {
+    gap: 8px;
+    font-size: 11px;
+  }
+
+  .sizeName {
+    font-size: 13px;
+  }
+
+  .chartBox {
+    height: 300px;
+  }
+
+  .tickerRow {
+    padding: 12px;
+  }
+
+  .tickerList {
+    overflow-x: auto;
+    height: auto;
+    gap: 0;
+    padding: 4px;
+  }
+
+  .tickerItem {
+    flex: 0 0 auto;
+    min-width: 170px;
+    padding: 10px 12px;
+  }
+
+  .followBtn {
+    margin-left: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .newsContainer {
+    padding: 10px;
+  }
+
+  .newsItem {
+    gap: 8px;
+  }
+
+  .time {
+    min-width: 38px;
+    font-size: 11px;
+  }
+
+  .tickerName {
+    font-size: 12px;
+  }
+}

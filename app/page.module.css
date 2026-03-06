@@ -1,0 +1,9 @@
+.floatWrap {
+  position: relative;
+  z-index: 50;
+  margin-top: -1000px;
+}
+
+.contentWrap {
+  margin-top: -10px;
+}
