@@ -2,6 +2,18 @@
 .mt60 {
   margin-top: 60px;
 }
+
+.scroll{
+  overflow: hidden;
+  max-height: 800px;
+  overflow-y: auto;
+  position: relative;
+  scrollbar-width: thin;
+  -webkit-mask-image: linear-gradient(to bottom, black 90%, transparent 100%);
+  mask-image: linear-gradient(to bottom, black 90%, transparent 100%);
+}
+
+
 /* code chung */
 .specialTitleLink:hover,
 .pill:hover,
@@ -104,13 +116,7 @@
   margin-top: 10px;
   background: #fff;
   border-radius: 14px;
-  overflow: hidden;
-  max-height: 800px;
-  overflow-y: auto;
-  position: relative;
-  scrollbar-width: thin;
-  -webkit-mask-image: linear-gradient(to bottom, black 90%, transparent 100%);
-  mask-image: linear-gradient(to bottom, black 90%, transparent 100%);
+  
 }
 
 .listItem {
@@ -769,6 +775,37 @@
   flex: 1.8;
   display: flex;
   border-radius: 14px;
+  max-height: 300px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: relative;
+  padding-right: 6px;
+
+  /* Firefox */
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.35) rgba(255, 255, 255, 0.08);
+}
+
+/* Chrome, Edge, Safari */
+.featureMiniList::-webkit-scrollbar {
+  width: 8px;
+}
+
+.featureMiniList::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 999px;
+}
+
+.featureMiniList::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.35);
+  border-radius: 999px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+
+.featureMiniList::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.55);
+  background-clip: content-box;
 }
 
 .featureThumbBig {

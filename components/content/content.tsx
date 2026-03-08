@@ -35,7 +35,7 @@ export default function Content() {
               <div className={styles.blockTitle}>TIN CHÍNH</div>
             </div>
 
-            <div className={styles.newsList}>
+            <div className={` ${styles.newsList} ${styles.scroll}`}>
               {/* item 1 */}
               <article className={styles.listItem}>
                 <div className={styles.listThumb}>
@@ -400,7 +400,7 @@ export default function Content() {
                 <h3 className={styles.sectionTitle}>TÀI CHÍNH NGÂN HÀNG</h3>
               </div>
             </div>
-            <div className={styles.newsList}>
+            <div className={styles.scroll}>
               <article className={styles.listItem}>
                 <div className={styles.listThumb}>
                   <Image
@@ -979,7 +979,7 @@ export default function Content() {
                 </article>
 
                 {/* RIGHT list */}
-                <div className={styles.featureMiniList}>
+                <div className= {styles.featureMiniList}>
                   <article className={styles.featureMini}>
                     <Image
                       src="/minidacsac1.png"
@@ -1008,6 +1008,60 @@ export default function Content() {
                         cum tenetur. Expedita quo laudantium laborum porro?
                         Consequatur expedita totam iste rerum placeat quaerat
                         sit!
+                      </p>
+                    </div>
+                  </article>
+
+                  <article className={styles.featureMini}>
+                    <Image
+                      src="/minidacsac2.png"
+                      alt="mini1"
+                      width={260}
+                      height={148}
+                    />
+                    <div className={styles.featureMiniBody}>
+                      <div className={styles.featureMeta}>
+                        <span className={styles.featureTag}>Tài chính</span>
+                        <span className={styles.featureTime}>9h trước</span>
+                      </div>
+
+                      <a href="!#" className={styles.featureTitle}>
+                        Cho vay ngang hàng Việt Nam: Bước ngoặt pháp lý định
+                        hình lại thị trường
+                      </a>
+
+                      <p className={styles.featureDesc}>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Nihil totam nobis fugiat quasi excepturi quis eius
+                        soluta repudiandae, incidunt ut ipsam labore animi enim.
+                        Molestiae repudiandae odio quia incidunt est!
+                      </p>
+                    </div>
+                  </article>
+
+                  <article className={styles.featureMini}>
+                    <Image
+                      src="/minidacsac2.png"
+                      alt="mini1"
+                      width={260}
+                      height={148}
+                    />
+                    <div className={styles.featureMiniBody}>
+                      <div className={styles.featureMeta}>
+                        <span className={styles.featureTag}>Tài chính</span>
+                        <span className={styles.featureTime}>9h trước</span>
+                      </div>
+
+                      <a href="!#" className={styles.featureTitle}>
+                        Cho vay ngang hàng Việt Nam: Bước ngoặt pháp lý định
+                        hình lại thị trường
+                      </a>
+
+                      <p className={styles.featureDesc}>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Nihil totam nobis fugiat quasi excepturi quis eius
+                        soluta repudiandae, incidunt ut ipsam labore animi enim.
+                        Molestiae repudiandae odio quia incidunt est!
                       </p>
                     </div>
                   </article>

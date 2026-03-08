@@ -309,7 +309,7 @@ export default function BigbodyContent() {
 
       {/* ===== row10: the gioi ===== */}
 
-      <div className={`${styles.categorySection} ${styles.mt60}`}>
+      <div className={`${styles.categorySection} ${styles.mt60} ${styles.scroll}`}>
         <div className={styles.categoryHeader}>
           <Image src="/union.png" alt="union" width={12} height={12} />
           <h3 className={styles.categoryTitle}>THẾ GIỚI</h3>
@@ -775,7 +775,7 @@ export default function BigbodyContent() {
                 <h3 className={styles.categoryTitle}>ĐỜI SỐNG</h3>
               </div>
 
-              <div className={styles.newsList}>
+              <div className={` ${styles.newsList} ${styles.scroll}`}>
                 {/* item 1 */}
                 <article className={styles.listItem}>
                   <div className={styles.listThumb}>
@@ -889,6 +889,37 @@ export default function BigbodyContent() {
                     </p>
                   </div>
                 </article>
+
+                {/* item 5 */}
+                <article className={styles.listItem}>
+                  <div className={styles.listThumb}>
+                    <Image
+                      src="/img-content1.png"
+                      alt="thumb"
+                      fill
+                      className={styles.cover}
+                    />
+                  </div>
+
+                  <div className={styles.listBody}>
+                    <div className={styles.listMeta}>
+                      <span className={styles.listTag}>Tài chính</span>
+                      <span className={styles.listTime}>9h trước</span>
+                    </div>
+
+                    <a href="!#" className={styles.listTitle}>
+                      VPBankS công bố lợi nhuận kỷ lục trước thêm IPO
+                    </a>
+
+                    <p className={styles.listDesc}>
+                      Với kết quả tích cực trong hoạt động kinh doanh, tổ chức
+                      tài chính tiếp tục mở rộng hệ sinh thái...
+                    </p>
+                  </div>
+                </article>
+
+                
+                
               </div>
             </div>
           </div>
