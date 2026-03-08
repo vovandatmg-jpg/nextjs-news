@@ -42,3 +42,14 @@
   font-size: 32px;
   font-weight: 400;
 }
+
+@media (max-width: 480px) {
+  .banner {
+    height: 72vh;
+    min-height: 420px;
+  }
+
+  .text h1 {
+    font-weight: 700;
+  }
+}
