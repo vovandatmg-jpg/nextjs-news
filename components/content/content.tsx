@@ -430,6 +430,32 @@ export default function Content() {
               <article className={styles.listItem}>
                 <div className={styles.listThumb}>
                   <Image
+                    src="/img-content2.png"
+                    alt="thumb"
+                    fill
+                   className={styles.cover}
+                  />
+               </div>
+                <div className={styles.listBody}>
+                  <div className={styles.listMeta}>
+                    <span className={styles.listTag}>Tài chính</span>
+                   <span className={styles.listTime}>9h trước</span>
+                  </div>
+                  <a href="!#" className={styles.listTitle}>
+                    Cho vay ngang hàng Việt Nam: Bước ngoặt pháp lý định hình lại
+                    thị trường
+                  </a>
+                 <p className={styles.listDesc}>
+                   Khung pháp lý mới cho hoạt động cho vay ngang hàng (P2P
+                   Lending) tại Việt Nam đang định hình sân chơi mới, mang đến cả
+                    cơ hội và thách thức cho các...
+                  </p>
+                </div>
+              </article>
+
+              <article className={styles.listItem}>
+                <div className={styles.listThumb}>
+                  <Image
                     src="/img-content1.png"
                     alt="thumb"
                     fill
