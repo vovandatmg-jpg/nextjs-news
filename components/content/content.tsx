@@ -181,6 +181,122 @@ export default function Content() {
                   </p>
                 </div>
               </article>
+
+              <article className={`${styles.listItem} ${styles.listItemLast}`}>
+                <div className={styles.listThumb}>
+                  <Image
+                    src="/img-content2.png"
+                    alt="thumb"
+                    fill
+                    className={styles.cover}
+                  />
+                </div>
+
+                <div className={styles.listBody}>
+                  <div className={styles.listMeta}>
+                    <span className={styles.listTag}>Thị trường</span>
+                    <span className={styles.listTime}>9h trước</span>
+                  </div>
+
+                  <a href="!#" className={styles.listTitle}>
+                    Cho vay ngang hàng Việt Nam: Bước ngoặt pháp lý định hình
+                    lại thị trường
+                  </a>
+
+                  <p className={styles.listDesc}>
+                    Khung pháp lý mới cho hoạt động cho vay ngang hàng (P2P
+                    Lending) tại Việt Nam đang định hình sân chơi mới, mang đến
+                    cả cơ hội và thách thức cho các...
+                  </p>
+                </div>
+              </article>
+
+              <article className={`${styles.listItem} ${styles.listItemLast}`}>
+                <div className={styles.listThumb}>
+                  <Image
+                    src="/img-content2.png"
+                    alt="thumb"
+                    fill
+                    className={styles.cover}
+                  />
+                </div>
+
+                <div className={styles.listBody}>
+                  <div className={styles.listMeta}>
+                    <span className={styles.listTag}>Thị trường</span>
+                    <span className={styles.listTime}>9h trước</span>
+                  </div>
+
+                  <a href="!#" className={styles.listTitle}>
+                    Cho vay ngang hàng Việt Nam: Bước ngoặt pháp lý định hình
+                    lại thị trường
+                  </a>
+
+                  <p className={styles.listDesc}>
+                    Khung pháp lý mới cho hoạt động cho vay ngang hàng (P2P
+                    Lending) tại Việt Nam đang định hình sân chơi mới, mang đến
+                    cả cơ hội và thách thức cho các...
+                  </p>
+                </div>
+              </article>
+
+              <article className={`${styles.listItem} ${styles.listItemLast}`}>
+                <div className={styles.listThumb}>
+                  <Image
+                    src="/img-content2.png"
+                    alt="thumb"
+                    fill
+                    className={styles.cover}
+                  />
+                </div>
+
+                <div className={styles.listBody}>
+                  <div className={styles.listMeta}>
+                    <span className={styles.listTag}>Thị trường</span>
+                    <span className={styles.listTime}>9h trước</span>
+                  </div>
+
+                  <a href="!#" className={styles.listTitle}>
+                    Cho vay ngang hàng Việt Nam: Bước ngoặt pháp lý định hình
+                    lại thị trường
+                  </a>
+
+                  <p className={styles.listDesc}>
+                    Khung pháp lý mới cho hoạt động cho vay ngang hàng (P2P
+                    Lending) tại Việt Nam đang định hình sân chơi mới, mang đến
+                    cả cơ hội và thách thức cho các...
+                  </p>
+                </div>
+              </article>
+
+              <article className={`${styles.listItem} ${styles.listItemLast}`}>
+                <div className={styles.listThumb}>
+                  <Image
+                    src="/img-content2.png"
+                    alt="thumb"
+                    fill
+                    className={styles.cover}
+                  />
+                </div>
+
+                <div className={styles.listBody}>
+                  <div className={styles.listMeta}>
+                    <span className={styles.listTag}>Thị trường</span>
+                    <span className={styles.listTime}>9h trước</span>
+                  </div>
+
+                  <a href="!#" className={styles.listTitle}>
+                    Cho vay ngang hàng Việt Nam: Bước ngoặt pháp lý định hình
+                    lại thị trường
+                  </a>
+
+                  <p className={styles.listDesc}>
+                    Khung pháp lý mới cho hoạt động cho vay ngang hàng (P2P
+                    Lending) tại Việt Nam đang định hình sân chơi mới, mang đến
+                    cả cơ hội và thách thức cho các...
+                  </p>
+                </div>
+              </article>
             </div>
 
             {/* CHUYÊN ĐỀ */}
@@ -284,131 +400,133 @@ export default function Content() {
                 <h3 className={styles.sectionTitle}>TÀI CHÍNH NGÂN HÀNG</h3>
               </div>
             </div>
-            <article className={styles.listItem}>
-              <div className={styles.listThumb}>
-                <Image
-                  src="/img-content2.png"
-                  alt="thumb"
-                  fill
-                  className={styles.cover}
-                />
-              </div>
-              <div className={styles.listBody}>
-                <div className={styles.listMeta}>
-                  <span className={styles.listTag}>Tài chính</span>
-                  <span className={styles.listTime}>9h trước</span>
+            <div className={styles.newsList}>
+              <article className={styles.listItem}>
+                <div className={styles.listThumb}>
+                  <Image
+                    src="/img-content2.png"
+                    alt="thumb"
+                    fill
+                   className={styles.cover}
+                  />
+               </div>
+                <div className={styles.listBody}>
+                  <div className={styles.listMeta}>
+                    <span className={styles.listTag}>Tài chính</span>
+                   <span className={styles.listTime}>9h trước</span>
+                  </div>
+                  <a href="!#" className={styles.listTitle}>
+                    Cho vay ngang hàng Việt Nam: Bước ngoặt pháp lý định hình lại
+                    thị trường
+                  </a>
+                 <p className={styles.listDesc}>
+                   Khung pháp lý mới cho hoạt động cho vay ngang hàng (P2P
+                   Lending) tại Việt Nam đang định hình sân chơi mới, mang đến cả
+                    cơ hội và thách thức cho các...
+                  </p>
                 </div>
-                <a href="!#" className={styles.listTitle}>
-                  Cho vay ngang hàng Việt Nam: Bước ngoặt pháp lý định hình lại
-                  thị trường
-                </a>
-                <p className={styles.listDesc}>
-                  Khung pháp lý mới cho hoạt động cho vay ngang hàng (P2P
-                  Lending) tại Việt Nam đang định hình sân chơi mới, mang đến cả
-                  cơ hội và thách thức cho các...
-                </p>
-              </div>
-            </article>
+              </article>
 
-            <article className={styles.listItem}>
-              <div className={styles.listThumb}>
-                <Image
-                  src="/img-content1.png"
-                  alt="thumb"
-                  fill
-                  className={styles.cover}
-                />
-              </div>
-              <div className={styles.listBody}>
-                <div className={styles.listMeta}>
-                  <span className={styles.listTag}>Tài chính</span>
-                  <span className={styles.listTime}>9h trước</span>
+              <article className={styles.listItem}>
+                <div className={styles.listThumb}>
+                  <Image
+                    src="/img-content1.png"
+                    alt="thumb"
+                    fill
+                    className={styles.cover}
+                  />
                 </div>
-                <a href="!#" className={styles.listTitle}>
-                  VPBankS công bố lợi nhuận kỷ lục trước thêm IPO
-                </a>
-                <p className={styles.listDesc}>
-                  Với kết quả tích cực từ hoạt động tự doanh, tư vấn tài chính
-                  và cho vay, CTCP Chứng khoán VPBank (VPBankS) lãi trước thuế
-                  gần 2.4 ngàn tỷ đồng trong quý 3 và gần 3.3 ngàn tỷ đồng lũy
-                  kế
-                </p>
-              </div>
-            </article>
+                <div className={styles.listBody}>
+                  <div className={styles.listMeta}>
+                    <span className={styles.listTag}>Tài chính</span>
+                    <span className={styles.listTime}>9h trước</span>
+                  </div>
+                  <a href="!#" className={styles.listTitle}>
+                    VPBankS công bố lợi nhuận kỷ lục trước thêm IPO
+                  </a>
+                  <p className={styles.listDesc}>
+                    Với kết quả tích cực từ hoạt động tự doanh, tư vấn tài chính
+                    và cho vay, CTCP Chứng khoán VPBank (VPBankS) lãi trước thuế
+                    gần 2.4 ngàn tỷ đồng trong quý 3 và gần 3.3 ngàn tỷ đồng lũy
+                    kế
+                  </p>
+                </div>
+              </article>
 
-            <article className={styles.listItem}>
-              <div className={styles.listThumb}>
-                <Image
-                  src="/img-content2.png"
-                  alt="thumb"
-                  fill
-                  className={styles.cover}
-                />
-              </div>
-              <div className={styles.listBody}>
-                <div className={styles.listMeta}>
-                  <span className={styles.listTag}>Thị trường</span>
-                  <span className={styles.listTime}>9h trước</span>
+              <article className={styles.listItem}>
+                <div className={styles.listThumb}>
+                  <Image
+                    src="/img-content2.png"
+                    alt="thumb"
+                    fill
+                    className={styles.cover}
+                  />
                 </div>
-                <a href="!#" className={styles.listTitle}>
-                  Nhịp đập thị trường 09/10: Lần đầu vượt 1,700 điểm
-                </a>
-                <p className={styles.listDesc}>
-                  Các chỉ số chính trên thị trường chứng khoán Việt Nam đồng
-                  loạt đóng cửa trong sắc xanh...
-                </p>
-              </div>
-            </article>
+                <div className={styles.listBody}>
+                  <div className={styles.listMeta}>
+                    <span className={styles.listTag}>Thị trường</span>
+                    <span className={styles.listTime}>9h trước</span>
+                  </div>
+                  <a href="!#" className={styles.listTitle}>
+                    Nhịp đập thị trường 09/10: Lần đầu vượt 1,700 điểm
+                  </a>
+                  <p className={styles.listDesc}>
+                    Các chỉ số chính trên thị trường chứng khoán Việt Nam đồng
+                    loạt đóng cửa trong sắc xanh...
+                  </p>
+                </div>
+              </article>
 
-            <article className={styles.listItem}>
-              <div className={styles.listThumb}>
-                <Image
-                  src="/img-content2.png"
-                  alt="thumb"
-                  fill
-                  className={styles.cover}
-                />
-              </div>
-              <div className={styles.listBody}>
-                <div className={styles.listMeta}>
-                  <span className={styles.listTag}>Thị trường</span>
-                  <span className={styles.listTime}>9h trước</span>
+              <article className={styles.listItem}>
+                <div className={styles.listThumb}>
+                  <Image
+                    src="/img-content2.png"
+                    alt="thumb"
+                    fill
+                    className={styles.cover}
+                  />
                 </div>
-                <a href="!#" className={styles.listTitle}>
-                  Nhịp đập thị trường 09/10: Lần đầu vượt 1,700 điểm
-                </a>
-                <p className={styles.listDesc}>
-                  Với kết quả tích cực từ hoạt động tự doanh, tư vấn tài chính
-                  và cho vay, CTCP Chứng khoán VPBank (VPBankS) lãi trước thuế
-                  gần 2.4 ngàn tỷ đồng trong quý 3 và gần 3.3 ngàn tỷ đồng lũy
-                  kế
-                </p>
-              </div>
-            </article>
+                <div className={styles.listBody}>
+                  <div className={styles.listMeta}>
+                    <span className={styles.listTag}>Thị trường</span>
+                    <span className={styles.listTime}>9h trước</span>
+                  </div>
+                  <a href="!#" className={styles.listTitle}>
+                    Nhịp đập thị trường 09/10: Lần đầu vượt 1,700 điểm
+                  </a>
+                  <p className={styles.listDesc}>
+                    Với kết quả tích cực từ hoạt động tự doanh, tư vấn tài chính
+                    và cho vay, CTCP Chứng khoán VPBank (VPBankS) lãi trước thuế
+                    gần 2.4 ngàn tỷ đồng trong quý 3 và gần 3.3 ngàn tỷ đồng lũy
+                    kế
+                  </p>
+                </div>
+              </article>
 
-            <article className={`${styles.listItem} ${styles.listItemLast}`}>
-              <div className={styles.listThumb}>
-                <Image
-                  src="/img-content2.png"
-                  alt="thumb"
-                  fill
-                  className={styles.cover}
-                />
-              </div>
-              <div className={styles.listBody}>
-                <div className={styles.listMeta}>
-                  <span className={styles.listTag}>Thị trường</span>
-                  <span className={styles.listTime}>9h trước</span>
+              <article className={`${styles.listItem} ${styles.listItemLast}`}>
+                <div className={styles.listThumb}>
+                  <Image
+                    src="/img-content2.png"
+                    alt="thumb"
+                    fill
+                    className={styles.cover}
+                  />
                 </div>
-                <a href="!#" className={styles.listTitle}>
-                  Nhịp đập thị trường 09/10: Lần đầu vượt 1,700 điểm
-                </a>
-                <p className={styles.listDesc}>
-                  Các chỉ số chính trên thị trường chứng khoán Việt Nam đồng
-                  loạt đóng cửa trong sắc xanh...
-                </p>
-              </div>
-            </article>
+                <div className={styles.listBody}>
+                  <div className={styles.listMeta}>
+                    <span className={styles.listTag}>Thị trường</span>
+                    <span className={styles.listTime}>9h trước</span>
+                  </div>
+                  <a href="!#" className={styles.listTitle}>
+                    Nhịp đập thị trường 09/10: Lần đầu vượt 1,700 điểm
+                  </a>
+                  <p className={styles.listDesc}>
+                    Các chỉ số chính trên thị trường chứng khoán Việt Nam đồng
+                    loạt đóng cửa trong sắc xanh...
+                  </p>
+                </div>
+              </article>
+            </div>
             {/* ===== ROW 6: VIDEO NỔI BẬT ===== */}
             <div className={`${styles.row6} ${styles.mt60}`}>
               <div className={styles.colLeft}>
