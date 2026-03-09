@@ -664,7 +664,7 @@ export default function Content() {
                 </div>
               </div>
 
-              <div className={styles.bulletin}>
+              <div className={`${styles.bulletin} ${styles.scrollRight}`}>
                 <div className={styles.bRow}>
                   <span className={styles.bCode}>PBC</span>
                   <div className={styles.bBody}>
@@ -692,6 +692,46 @@ export default function Content() {
                     <a href="#!" className={styles.bTitleLink}>
                       PBC: Ngày 16/10/2025, Thông báo ngày giao dịch đầu tiên
                       đăng ký
+                    </a>
+                    <div className={styles.bTime}>05/10/2025</div>
+                  </div>
+                </div>
+
+                <div className={styles.bRow}>
+                  <span className={styles.bCode}>NTC</span>
+                  <div className={styles.bBody}>
+                    <a href="#!" className={styles.bTitleLink}>
+                      CC: Điều chỉnh doanh nghiệp do thay đổi ngày giao dịch
+                    </a>
+                    <div className={styles.bTime}>05/10/2025</div>
+                  </div>
+                </div>
+
+                <div className={styles.bRow}>
+                  <span className={styles.bCode}>SHD</span>
+                  <div className={styles.bBody}>
+                    <a href="#!" className={styles.bTitleLink}>
+                      SHD: Báo cáo tài chính bán niên năm 2025
+                    </a>
+                    <div className={styles.bTime}>05/10/2025</div>
+                  </div>
+                </div>
+
+                <div className={styles.bRow}>
+                  <span className={styles.bCode}>NTC</span>
+                  <div className={styles.bBody}>
+                    <a href="#!" className={styles.bTitleLink}>
+                      CC: Điều chỉnh doanh nghiệp do thay đổi ngày giao dịch
+                    </a>
+                    <div className={styles.bTime}>05/10/2025</div>
+                  </div>
+                </div>
+
+                <div className={styles.bRow}>
+                  <span className={styles.bCode}>SHD</span>
+                  <div className={styles.bBody}>
+                    <a href="#!" className={styles.bTitleLink}>
+                      SHD: Báo cáo tài chính bán niên năm 2025
                     </a>
                     <div className={styles.bTime}>05/10/2025</div>
                   </div>
@@ -785,12 +825,12 @@ export default function Content() {
             </section>
 
             {/* BÁO CÁO PHÂN TÍCH */}
-            <section className={styles.widget}>
+            <section className={styles.widget} >
               <div className={styles.widgetHead}>
                 <h3 className={styles.widgetTitle}>BÁO CÁO PHÂN TÍCH</h3>
               </div>
 
-              <div className={styles.reportList}>
+              <div className={`${styles.reportList} ${styles.scrollRight}`}>
                 <div className={styles.bulletin}>
                   <div className={styles.bRow}>
                     <span className={styles.bCode}>POW</span>
@@ -817,6 +857,48 @@ export default function Content() {
                     <div className={styles.bBody}>
                       <a href="#!" className={styles.bTitleLink}>
                         CTD: Báo cáo cập nhật KQKD Q1/2026
+                      </a>
+                      <div className={styles.bTime}>05/10/2025</div>
+                    </div>
+                  </div>
+
+                  <div className={styles.bRow}>
+                    <span className={styles.bCode}>PVD</span>
+                    <div className={styles.bBody}>
+                      <a href="#!" className={styles.bTitleLink}>
+                        PVD: Khuyến nghị MUA với giá mục tiêu 32,200 đồng/cổ
+                        phiếu
+                      </a>
+                      <div className={styles.bTime}>05/10/2025</div>
+                    </div>
+                  </div>
+
+                  <div className={styles.bRow}>
+                    <span className={styles.bCode}>SHG</span>
+                    <div className={styles.bBody}>
+                      <a href="#!" className={styles.bTitleLink}>
+                        SHG: Báo cáo tài chính bán niên năm 2025
+                      </a>
+                      <div className={styles.bTime}>05/10/2025</div>
+                    </div>
+                  </div>
+
+                  <div className={styles.bRow}>
+                    <span className={styles.bCode}>PVD</span>
+                    <div className={styles.bBody}>
+                      <a href="#!" className={styles.bTitleLink}>
+                        PVD: Khuyến nghị MUA với giá mục tiêu 32,200 đồng/cổ
+                        phiếu
+                      </a>
+                      <div className={styles.bTime}>05/10/2025</div>
+                    </div>
+                  </div>
+
+                  <div className={styles.bRow}>
+                    <span className={styles.bCode}>SHG</span>
+                    <div className={styles.bBody}>
+                      <a href="#!" className={styles.bTitleLink}>
+                        SHG: Báo cáo tài chính bán niên năm 2025
                       </a>
                       <div className={styles.bTime}>05/10/2025</div>
                     </div>
