@@ -246,8 +246,8 @@
 
   .left {
     padding: 8px;
-    max-height: none;
-    overflow: visible;
+    max-height: 160px;
+    overflow-y: auto;
     background: #fff;
   }
 

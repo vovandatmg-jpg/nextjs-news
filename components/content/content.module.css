@@ -432,7 +432,7 @@
 }
 
 .specialCard {
-  flex: 1 1 23%;
+  flex: 1 1 21%;
   background: #fff;
   border: 1px solid #e5e7eb;
   border-radius: 14px;
@@ -708,6 +708,102 @@
 
   .specialStrip {
     grid-template-columns: 1fr;
+  }
+
+  .specialTitle{
+    padding-bottom: 24px
+  }
+
+  .specialDesc{
+    display: -webkit-box;
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  /* row7 responsive */
+  .row7 {
+    padding: 12px;
+    border-radius: 14px;
+  }
+
+  .featureHeader {
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 10px;
+  }
+
+  .featureTitle {
+    font-size: 13px;
+  }
+
+  .featureMenu {
+    gap: 6px;
+    flex-wrap: wrap;
+    flex: 1 100%;
+  }
+
+  .ftab {
+    padding: 5px 8px;
+    font-size: 10px;
+  }
+
+  .avatarCircle {
+    width: 40px;
+    height: 40px;
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+
+  .featureList {
+    gap: 10px;
+  }
+
+  .featureBig {
+    flex: 1 100%;
+  }
+
+  .featureMiniList {
+    flex: 1 100%;
+    max-height: 250px;
+    flex-direction: column;
+    gap: 10px;
+    padding-right: 4px;
+  }
+
+  .featureThumbBig {
+    height: 140px;
+  }
+
+  .featureBodyBig {
+    padding: 8px 10px 10px;
+  }
+
+  .featureHeadline {
+    font-size: 14px;
+  }
+
+  .featureMeta {
+    font-size: 10px;
+  }
+
+  .featureDesc {
+    font-size: 11px;
+    -webkit-line-clamp: 2;
+  }
+
+  .featureMiniBody {
+    gap: 6px;
+    padding: 10px;
+  }
+
+  .mostList {
+    gap: 12px;
+  }
+
+  .mostLeft,
+  .mostRight {
+    flex: 1 100%;
   }
 }
 
@@ -1019,4 +1115,164 @@
   line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
+}
+
+/* ===== RESPONSIVE 480PX: MOBILE ===== */
+@media (max-width: 480px) {
+  .section {
+    padding: 0 0 30px;
+  }
+
+  .topicTitle {
+    font-size: 16px;
+  }
+
+  .pill {
+    font-size: 11px;
+    padding: 4px 8px;
+  }
+
+  .listThumb {
+    height: 160px;
+  }
+
+  .listTitle {
+    font-size: 14px;
+  }
+
+  .listDesc {
+    font-size: 12px;
+    line-clamp: 3;
+    -webkit-line-clamp: 3;
+  }
+
+  .widgetTitle {
+    font-size: 16px;
+  }
+
+  
+
+  /* row 6: video nổi bật */
+  .videoMain {
+    height: 300px;
+  }
+
+  /* row7 mobile responsive */
+  .row7 {
+    padding: 10px;
+    border-radius: 12px;
+  }
+
+  .featureHeader {
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 8px;
+  }
+
+  .featureTitle {
+    font-size: 12px;
+  }
+
+  .featureMenu {
+    gap: 4px;
+    flex-wrap: wrap;
+    flex: 1 100%;
+  }
+
+  .ftab {
+    padding: 4px 6px;
+    font-size: 9px;
+  }
+
+  .avatarCircle {
+    width: 36px;
+    height: 36px;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  .featureList {
+    gap: 8px;
+    flex-direction: column;
+  }
+
+  .featureBig {
+    flex: 1 100%;
+  }
+
+  .featureMiniList {
+    flex: 1 100%;
+    max-height: 200px;
+    flex-direction: column;
+    gap: 8px;
+    padding-right: 3px;
+  }
+
+  .featureThumbBig {
+    height: 140px;
+  }
+
+  .featureBodyBig {
+    padding: 6px 8px 8px;
+  }
+
+  .featureHeadline {
+    font-size: 12px;
+  }
+
+  .featureMeta {
+    font-size: 9px;
+  }
+
+  .featureDesc {
+    font-size: 10px;
+    -webkit-line-clamp: 1;
+  }
+
+  .featureMiniBody {
+    gap: 4px;
+    padding: 8px;
+  }
+
+  .featureHeadlineLink {
+    -webkit-line-clamp: 1;
+  }
+
+  .mostList {
+    gap: 0;
+    flex-direction: column;
+  }
+
+  .mostLeft,
+  .mostRight {
+    flex: 1 100%;
+  }
+
+  .rankRow {
+    gap: 8px;
+    padding: 8px;
+  }
+
+  .rankNo {
+    font-size: 18px;
+    min-width: 24px;
+  }
+
+  .rankThumb {
+    width: 56px;
+    height: 40px;
+  }
+
+  .rankTitle {
+    font-size: 13px;
+  }
+
+  .mostThumb {
+    height: 70px;
+  }
+
+  .mostTitle {
+    font-size: 11px;
+    padding: 6px 8px 8px;
+  }
 }
