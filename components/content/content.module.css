@@ -789,7 +789,7 @@
 
   .featureDesc {
     font-size: 11px;
-    -webkit-line-clamp: 2;
+    line-clamp: 2;
   }
 
   .featureMiniBody {
@@ -1150,8 +1150,6 @@
     font-size: 16px;
   }
 
-  
-
   /* row 6: video nổi bật */
   .videoMain {
     height: 300px;
@@ -1226,7 +1224,7 @@
 
   .featureDesc {
     font-size: 10px;
-    -webkit-line-clamp: 1;
+    line-clamp: 1;
   }
 
   .featureMiniBody {
@@ -1235,7 +1233,7 @@
   }
 
   .featureHeadlineLink {
-    -webkit-line-clamp: 1;
+    line-clamp: 1;
   }
 
   .mostList {
