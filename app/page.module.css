@@ -7,3 +7,21 @@
 .contentWrap {
   margin-top: -10px;
 }
+
+@media (max-width: 1024px) {
+  .floatWrap {
+    margin-top: -750px;
+  }
+}
+
+@media (max-width: 768px) {
+  .floatWrap {
+    margin-top: -650px;
+  }
+}
+
+@media (max-width: 480px) {
+  .floatWrap {
+    margin-top: -420px;
+  }
+}

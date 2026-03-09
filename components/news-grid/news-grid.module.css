@@ -11,12 +11,6 @@
   overflow: hidden;
 }
 
-@media (max-width: 768px) {
-  .box {
-    overflow: visible;
-  }
-}
-
 .newsContainer {
   width: 100%;
   padding: 18px;
@@ -234,19 +228,27 @@
   }
 
   .chartBox {
-    height: 280px;
+    height: 180px;
   }
 }
 
 @media (max-width: 768px) {
   .newsContainer {
     padding: 12px;
+    flex-direction: column;
+  }
+
+  .containerLeft,
+  .containerCenter,
+  .containerRight {
+    flex: 1 1 100%;
   }
 
   .left {
-    padding: 0;
-    max-height: none !important;
-    overflow-y: visible !important;
+    padding: 8px;
+    max-height: none;
+    overflow: visible;
+    background: #fff;
   }
 
   .priceLabel {
@@ -263,7 +265,11 @@
   }
 
   .chartBox {
-    height: 300px;
+    height: 150px;
+  }
+
+  .rightSection {
+    flex-direction: column;
   }
 
   .tickerRow {
@@ -290,7 +296,7 @@
 
 @media (max-width: 480px) {
   .newsContainer {
-    padding: 10px;
+    padding: 20px;
   }
 
   .newsItem {
