@@ -11,6 +11,12 @@
   overflow: hidden;
 }
 
+@media (max-width: 768px) {
+  .box {
+    overflow: visible;
+  }
+}
+
 .newsContainer {
   width: 100%;
   padding: 18px;
@@ -239,8 +245,8 @@
 
   .left {
     padding: 0;
-    max-height: none;
-    overflow-y: visible;
+    max-height: none !important;
+    overflow-y: visible !important;
   }
 
   .priceLabel {
