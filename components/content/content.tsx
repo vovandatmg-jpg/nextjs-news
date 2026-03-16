@@ -830,7 +830,7 @@ export default function Content() {
                 <h3 className={styles.widgetTitle}>BÁO CÁO PHÂN TÍCH</h3>
               </div>
 
-              <div className={`${styles.reportList} ${styles.scrollRight}`}>
+              <div className={`${styles.reportList} ${styles.scrollRight} ${styles.scroolRes}`}>
                 <div className={styles.bulletin}>
                   <div className={styles.bRow}>
                     <span className={styles.bCode}>POW</span>

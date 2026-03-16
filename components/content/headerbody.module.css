@@ -308,68 +308,283 @@
 
 @media (max-width: 768px) {
   .row1 {
-    padding: 14px;
-    gap: 14px;
+    padding: 12px;
+    gap: 12px;
+    flex-direction: column;
+  }
+
+  .left {
+    flex: 1 100%;
+    min-width: 0;
+    border-radius: 10px;
   }
 
   .video {
-    height: 270px;
+    height: 250px;
   }
 
   .leadBody {
-    padding: 18px 14px 20px;
+    padding: 16px 12px 18px;
   }
 
   .leadTitle {
-    font-size: 20px;
+    font-size: 18px;
+    line-height: 1.3;
+    margin-top: 8px;
+  }
+
+  .meta {
+    font-size: 11px;
+    gap: 8px;
   }
 
   .sidebar {
     flex-direction: column;
+    gap: 12px;
+    width: 100%;
+  }
+
+  .sideCard {
+    flex: 1;
+    border-radius: 10px;
   }
 
   .sideThumb {
-    height: 170px;
+    height: 140px;
   }
 
-  .row2 {
-    margin-top: 16px;
+  .sideBody {
+    padding-top: 6px;
+    gap: 6px;
+    max-width: none;
+    max-height: none;
   }
 
-  .carousel {
-    display: grid;
-    grid-template-columns: 1fr;
-    overflow: visible;
-  }
-
-  .carCard {
-    flex: 1 1 auto;
-  }
-
-  .carThumb {
-    height: 210px;
-  }
-}
-
-@media (max-width: 480px) {
-  .leadTitle {
-    font-size: 18px;
+  .metaSmall {
+    gap: 10px;
+    font-size: 10px;
   }
 
   .sideTitle {
-    font-size: 15px;
+    font-size: 14px;
+    line-clamp: 2;
+  }
+
+  .row2 {
+    margin-top: 12px;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .carousel {
+    gap: 10px;
+    justify-content: flex-start;
+    overflow-x: auto;
+    padding-bottom: 4px;
+    flex: 1;
+  }
+
+  .carCard {
+    flex: 0 0 calc(50% - 5px);
+    border-radius: 8px;
+  }
+
+  .carThumb {
+    width: 100%;
+    height: 160px;
+  }
+
+  .carTitle {
+    padding: 8px 10px 10px;
+    font-size: 12px;
+    line-height: 1.3;
+  }
+
+  .arrowLeft,
+  .arrowRight {
+    width: 32px;
+    height: 32px;
+    font-size: 18px;
+    bottom: 115px;
+  }
+
+  .arrowLeft {
+    left: -4px;
+  }
+
+  .arrowRight {
+    right: -4px;
   }
 
   .videoPlay {
-    width: 58px;
-    height: 58px;
+    width: 50px;
+    height: 50px;
+    font-size: 16px;
   }
 
   .videoPlayIcon {
     margin: 12px 0 8px 4px;
   }
+}
+
+@media (max-width: 480px) {
+  .row1 {
+    padding: 10px;
+    gap: 10px;
+    flex-direction: column;
+  }
+
+  .left {
+    flex: 1 100%;
+    border-radius: 8px;
+    min-width: 0;
+  }
+
+  .video {
+    height: 220px;
+  }
+
+  .leadBody {
+    padding: 12px 10px 14px;
+  }
+
+  .leadTitle {
+    font-size: 16px;
+    line-height: 1.3;
+    margin-top: 6px;
+  }
+
+  .meta {
+    font-size: 10px;
+    gap: 6px;
+  }
+
+  .tag {
+    font-size: 10px;
+  }
+
+  .tagbig::after {
+    width: 3px;
+    height: 3px;
+    margin-left: 6px;
+    margin-bottom: 1px;
+  }
+
+  .time {
+    font-size: 10px;
+  }
+
+  .sidebar {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .sideCard {
+    flex: 1;
+    border-radius: 8px;
+  }
+
+  .sideThumb {
+    height: 120px;
+  }
+
+  .sideBody {
+    padding-top: 6px;
+    gap: 4px;
+    max-width: none;
+    max-height: none;
+  }
+
+  .metaSmall {
+    gap: 8px;
+    font-size: 9px;
+  }
+
+  .tagSmall {
+    font-weight: 700;
+  }
+
+  .timeSmall {
+    font-size: 9px;
+  }
+
+  .sideTitle {
+    font-size: 12px;
+    line-clamp: 2;
+  }
+
+  .sideTitleLink {
+    font-size: 13px;
+    line-height: 1.3;
+    font-weight: 500;
+  }
+
+  .row2 {
+    margin-top: 10px;
+    flex-direction: row;
+  }
+
+  .carousel {
+    gap: 8px;
+    justify-content: flex-start;
+    overflow-x: auto;
+    padding-bottom: 2px;
+    flex: 1;
+  }
+
+  .carCard {
+    flex: 0 0 calc(50% - 4px);
+    border-radius: 6px;
+  }
 
   .carThumb {
-    height: 180px;
+    width: 100%;
+    height: 140px;
+  }
+
+  .carTitle {
+    padding: 6px 8px 8px;
+    font-size: 11px;
+    line-height: 1.2;
+  }
+
+  .arrowLeft,
+  .arrowRight {
+    width: 28px;
+    height: 28px;
+    font-size: 16px;
+    bottom: 100px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .arrowLeft {
+    left: -2px;
+  }
+
+  .arrowRight {
+    right: -2px;
+  }
+
+  .videoPlay {
+    width: 45px;
+    height: 45px;
+    font-size: 14px;
+  }
+
+  .videoPlayIcon {
+    margin: 10px 0 7px 4px;
+  }
+
+  .cover {
+    border-radius: 8px;
+  }
+
+  .scrollbar-thin {
+    scrollbar-width: thin;
+  }
+
+  ::-webkit-scrollbar {
+    width: 2px;
   }
 }

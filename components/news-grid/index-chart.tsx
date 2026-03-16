@@ -115,7 +115,7 @@ export default function IndexChart({
                 dot={false}
                 strokeWidth={2}
               />
-            ),
+            )
         )}
       </LineChart>
     </ResponsiveContainer>

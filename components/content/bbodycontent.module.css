@@ -34,7 +34,7 @@
 }
 
 .categoryList > * {
-  flex: 1 1 31%;
+  flex: 1 1 calc(50% - 10px);
 }
 
 .categoryList4 {
@@ -605,9 +605,12 @@
 }
 
 @media (max-width: 768px) {
-  .categoryList > *,
+  .categoryList > * {
+    flex: 1 1 calc(50% - 10px);
+  }
+
   .categoryList4 > * {
-    flex: 1 1 100%;
+    flex: 1 1 calc(50% - 10px);
   }
 
   .categoryLeftCard,
@@ -626,12 +629,12 @@
     height: 240px;
   }
 
-  .marketRow {
-    grid-template-columns: 1fr;
+  .categoryThumb {
+    height: 180px;
   }
 
-  .marketCardThumb {
-    height: 180px;
+  .categoryBody {
+    padding: 10px 8px;
   }
 
   .categoryRightItem {
@@ -641,5 +644,243 @@
 
   .expertThumb {
     height: 260px;
+  }
+}
+
+/* ===== RESPONSIVE 480PX: MOBILE ===== */
+@media (max-width: 480px) {
+  .categoryList > * {
+    flex: 1 1 calc(50% - 10px);
+  }
+
+  .categoryList4 > * {
+    flex: 1 1 calc(50% - 10px);
+  }
+
+  .categoryHeader {
+    gap: 6px;
+    margin-bottom: 10px;
+  }
+
+  .categoryTitle {
+    font-size: 16px;
+    letter-spacing: 0.1px;
+  }
+
+  .categoryCard {
+    border-radius: 8px;
+  }
+
+  .categoryThumb {
+    height: 160px;
+  }
+
+  .categoryBody {
+    padding: 8px 8px;
+    gap: 4px;
+  }
+
+  .categoryMeta {
+    font-size: 9px;
+    gap: 6px;
+  }
+
+  .categoryTag {
+    padding: 4px 0;
+  }
+
+  .categoryCardTitle {
+    font-size: 13px;
+    line-clamp: 2;
+  }
+
+  .categoryList {
+    gap: 12px;
+  }
+
+  .categoryLeftCard {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .categoryTGThumb {
+    width: 100%;
+    height: 140px;
+  }
+
+  .categoryLeftBody {
+    padding: 8px;
+    gap: 4px;
+  }
+
+  .categoryLeftMeta {
+    font-size: 8px;
+    gap: 6px;
+  }
+
+  .categoryLeftCardTitle {
+    font-size: 13px;
+    line-clamp: 2;
+  }
+
+  .categoryLeftCardDesc {
+    font-size: 12px;
+    line-clamp: 1;
+  }
+
+  .categoryCol,
+  .categoryThreeRow {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .categoryTwoRow {
+    gap: 32px;
+  }
+
+  .categoryLeft {
+    gap: 12px;
+  }
+
+  .categoryRight {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .categoryRightItem {
+    font-size: 14px;
+    line-height: 1.4;
+    padding-bottom: 8px;
+    margin: 0;
+  }
+
+  .categoryBigImg {
+    height: 200px;
+  }
+
+  .marketGrid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .marketRow {
+    width: 100%;
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .marketCard {
+    border-radius: 8px;
+  }
+
+  .marketCardThumb {
+    height: 140px;
+  }
+
+  .marketCardBody {
+    padding: 8px 0;
+    gap: 4px;
+  }
+
+  .marketCardTitle {
+    font-size: 13px;
+    line-clamp: 2;
+  }
+
+  .marketMeta {
+    font-size: 9px;
+    gap: 6px;
+  }
+
+  .marketRight {
+    flex-direction: column;
+  }
+
+  .marketFeaturedCard {
+    height: 250px;
+    border-radius: 8px;
+  }
+
+  .marketFeaturedTitle {
+    font-size: 12px;
+    line-clamp: 2;
+  }
+
+  /* List items */
+  .listItem {
+    width: 100%;
+    flex-direction: column;
+    gap: 8px;
+    padding: 8px;
+  }
+
+  .listThumb {
+    width: 100%;
+    height: 140px;
+    flex: 0 0 auto;
+    border-radius: 6px;
+  }
+
+  .listMeta {
+    font-size: 9px;
+    gap: 6px;
+  }
+
+  .listTag {
+    font-weight: 700;
+  }
+
+  .listTitle {
+    font-size: 13px;
+    line-clamp: 2;
+    margin-top: 2px;
+  }
+
+  .listDesc {
+    display: none;
+  }
+
+  /* Expert section */
+  .categoryRow3 {
+    flex: 1 100%;
+    padding: 8px;
+    border-radius: 8px;
+  }
+
+  .expertCards {
+    gap: 16px;
+  }
+
+  .expertThumb {
+    height: 220px;
+    border-radius: 8px;
+  }
+
+  .expertLabel {
+    font-size: 8px;
+    padding: 3px 6px;
+    bottom: 8px;
+    left: 8px;
+  }
+
+  .expertTitle {
+    font-size: 14px;
+    left: 8px;
+    bottom: 32px;
+    right: 30px;
+  }
+
+  .expertPlayBtn {
+    right: 8px;
+    bottom: 8px;
+  }
+
+  .expertName {
+    font-size: 12px;
+    margin-top: 3px;
+  }
+
+  .expertMeta {
+    font-size: 10px;
   }
 }
