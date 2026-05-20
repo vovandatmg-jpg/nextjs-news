@@ -10,7 +10,7 @@ import {
   Legend,
   ResponsiveContainer,
 } from "recharts";
-"hello"
+
 const chartData = [
   {
     time: "Jan",

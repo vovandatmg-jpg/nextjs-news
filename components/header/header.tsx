@@ -3,7 +3,7 @@
 import { useState } from "react";
 import styles from "./header.module.css";
 
-function Header() {
+export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
@@ -72,4 +72,3 @@ function Header() {
     </header>
   );
 }
-export default Header

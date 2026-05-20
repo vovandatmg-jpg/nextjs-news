@@ -924,7 +924,7 @@ export default function BigbodyContent() {
             </div>
           </div>
           {/* row 3 right */}
-          <div className={styles.categoryRow3}>
+          <div className={`${styles.categoryRow3} ${styles.mt60}`}>
             <div className={styles.categoryHeader}>
               <Image src="/union.png" alt="union" width={12} height={12} />
               <h3 className={styles.categoryTitle}>GÓC NHÌN CHUYÊN GIA</h3>
