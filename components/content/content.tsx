@@ -307,14 +307,6 @@ export default function Content() {
               </div>
             </div>
 
-            <div>
-              <Image
-                src="/backgroundCD1.png"
-                alt="bg"
-                fill
-                className={styles.background}
-              />
-            </div>
             <div className={styles.specialStrip}>
               <article className={styles.specialCard}>
                 <div className={styles.specialThumb}>
